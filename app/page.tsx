@@ -54,11 +54,11 @@ export default function Home() {
     }
   };
 
-  const handleBack = () => {
-    if (currentStep > 0) {
-      setCurrentStep(currentStep - 1);
-    }
-  };
+  // const handleBack = () => {
+  //   if (currentStep > 0) {
+  //     setCurrentStep(currentStep - 1);
+  //   }
+  // };
 
   const toggleMusic = () => {
     setIsPlaying(!isPlaying);
