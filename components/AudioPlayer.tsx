@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import { IoMdMusicalNote, IoMdMusicalNotes } from 'react-icons/io';
 
 export default function AudioPlayer() {
